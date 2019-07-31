@@ -98,7 +98,7 @@ nav li {
 /* tab navigation */
 header {
 	background-color: var(--c-blue-bg);
-	padding-top:1rem;
+	padding-top: 1rem;
 }
 nav.main {
 	max-width: var(--s-pagewidth);
