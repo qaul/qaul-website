@@ -2,7 +2,7 @@
 title: 'Help us Develop qaul.net'
 description: 'We are looking for more developers'
 date: 2020-03-30
-startpage: true
+startpage: false
 ---
 
 # We are looking for Developers
