@@ -12,9 +12,12 @@ startpage: true
 We are looking for engaged people who would like to work as freelancer in developing the rewrite of the Wifi/Bluetooth based peer to peer communication app for Android and Linux.
 The rewrite and all core features are written in Rust.
 
-* rust developer
-* EmberJS developer
-* people with experience in Bluetooth Low Energy, Wifi-Direct, Wifi-Aware in Linux or/and Android.
+We are therefore looking especially for:
+
+* Rust developers
+* Android developers
+* People with experience in Bluetooth Low Energy, Wifi-Direct, Wifi-Aware in Linux or/and Android.
+* EmberJS developers
 
 
 Please write to [contact@qaul.net](mailto:contact@qaul.net)
