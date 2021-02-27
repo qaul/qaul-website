@@ -49,8 +49,8 @@ other = "Report a Bug"
 [CompatibilityList]
 other = "See compatibility list"
 
-[ContributorsGuide]
-other = "Contributors Guide"
+[QaulNetManual]
+other = "qaul.net Manual"
 
 [Documentation]
 other = "Documentation"

@@ -10,7 +10,7 @@ title: "qaul.net Dokumentation"
 
 ## {{< fontawesome "book" >}} Contributers Guide
 
-[Lies den Contributors Guide](https://docs.qaul.net/contributors)
+[Lies das qaul.net Manual](https://docs.qaul.net/manual)
 
 
 ## {{< fontawesome "book" >}} Rust API Dokumentation
