@@ -8,7 +8,7 @@ title: "qaul.net Dokumentation"
 [Tutorials ansehen](/tutorials)
 
 
-## {{< fontawesome "book" >}} Contributers Guide
+## {{< fontawesome "book" >}} qaul.net Manual
 
 [Lies das qaul.net Manual](https://docs.qaul.net/manual)
 
