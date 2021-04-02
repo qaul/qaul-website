@@ -71,13 +71,13 @@ other = "Announcements Mailing List"
 other = "Open weekly voice chat meeting, Mondays, 17:00 UTC"
 
 [Privacy]
-other = "Privacy Statement"
+other = "Imprint & Privacy Statement"
 
 [CodeOfConduct]
 other = "Code of Conduct"
 
 [LicenseNotice]
-other = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](legal/cc-by)."
+other = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](/legal/cc-by)."
 
 [CopyAndDistribute]
 other = "You're welcome to copy, distribute and participate!"

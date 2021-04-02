@@ -1,6 +1,18 @@
 ---
-title: "Privacy Statement"
+title: "Imprint & Privacy Statement"
 ---
+# Imprint
+
+```
+Verein zur Förderung von offenen Community-Projekten
+Bodenackerstr. 2
+8304 Wallisellen
+Switzerland
+```
+
+[contact@ocpa.ch](mailto:contact@ocpa.ch)
+
+
 # Privacy Statement
 
 The web services under the domain 'qaul.net' run on different, community driven web servers. The access is only loged and analyzed for technical operating. The data is not passed on to third parties.

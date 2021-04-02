@@ -71,13 +71,13 @@ other = "Mailing-Liste für Mitteilungen"
 other = "Offenes wöchentliches Voice-Chat-Meeting, Montags, 17:00 UTC"
 
 [Privacy]
-other = "Datenschutz"
+other = "Impressum & Datenschutz"
 
 [CodeOfConduct]
 other = "Benimmregeln"
 
 [LicenseNotice]
-other = "Ausser wo anders angegeben, stehen alle Inhalte dieser Seite unter der [Creative Commons Attribution 4.0 International](legal/cc-by) Lizenz."
+other = "Ausser wo anders angegeben, stehen alle Inhalte dieser Seite unter der [Creative Commons Attribution 4.0 International](/legal/cc-by) Lizenz."
 
 [CopyAndDistribute]
 other = "Wir freuen uns, wenn du den Inhalt kopierst, verteilst und mitmachst!"
