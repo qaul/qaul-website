@@ -11,7 +11,7 @@ startpage: false
 
 qaul.net has a stable rust structure and is developing fast. We are approaching the alpha version and are looking for more people to join our development team.
 
-Interested? Great! Please feel welcome to write us an [email](mailto:contact@qaul.net). If you better like to voice chat with us, we are having a weekly meeting at [jitsi](https://meet.jit.si/qaul.net) every Monday, 17:00 UTC.
+Interested? Great! Please feel welcome to write us an [email](mailto:contact@qaul.net). 
 
 Below you'll find a non complete list of some current tasks. It can help you to get an idea of what you could do. Please feel welcome to join in and contact us also if you have different skills and expertise.
 
@@ -20,14 +20,15 @@ Below you'll find a non complete list of some current tasks. It can help you to 
 
 Here a short list of the most actual challenges ahead of us:
 
-* VoIP integration
-* Android app
-* Bluetooth & wifi-direct interconnectivity
+* MDNS peer discovery on (Android, MacOS, iOS, Windows)
+* BLE inter-connectivity
 
 
 ## Mostly Needed Skills
 
 * Rust programming skills
+  * rust database programming
+  * rust-libp2p knowledge
+* flutter know how
 * Android know how
-* Web GUI expertise with EmberJS
-
+* iOS know how
