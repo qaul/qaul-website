@@ -1,14 +1,11 @@
 ---
 Description: |
-    **qaul.net** ist eine Internet unabhängiges Kommunikationswerkzeug 
-    um eine direkte, lokale peer-to-peer Kommunikation zu 
-    ermöglichen. Alle Geräte wie Computer und Smartphones können 
+    **qaul.net** ist eine Internet unabhängige wifi Kommunikations App. 
+    Du kannst direkt von einem Gerät zum nächsten - also peer-to-peer - 
+    kommunizieren. Computer und Smartphones können 
     direkt zu einem **dezentralisierten, freien Netzwerk** 
-    zusammengeschlossen werden und über das Netzwerke Sprachanrufe tätigen, 
+    zusammengeschlossen werden. über das Netzwerk kann man Sprachanrufe tätigen, 
     Textmitteilungen schreiben und Datei teilen. qaul.net vereinigt 
     alle diese Kommunikationsmöglichkeiten in einer App.
-
-    Zusätzlich stellt qaul.net ein API für Programmierer*innen bereit, 
-    um das Netzwerk mit eigenen Programme und Services zu erweitern und zu nutzen.
 ---
 

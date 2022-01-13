@@ -3,21 +3,21 @@ title: "Features"
 
 # Feature Text Translations
 TextMessaging: "Text Messaging"
-TextMessagingDetails: "Send public, encrypted group and private messages to anyone you meet on the network"
+TextMessagingDetails: ""
 
 FileSharing: "File Sharing"
-FileSharingDetails: "Share files either directly, or via re-usable, torrent-like share links"
+FileSharingDetails: ""
 
 VoiceChat: "Voice Chat"
-VoiceChatDetails: "Have voice calls and broadcast live radio shows"
+VoiceChatDetails: ""
 
 UserDiscovery: "User Discovery"
-UserDiscoveryDetails: "Discover users and services around you, verify their identity when you meet"
+UserDiscoveryDetails: ""
 
-WifiP2P: "Ad-hoc Peer to Peer Network"
-WifiP2PDetails: "Don't rely on existing infrastructure - become part of new ad-hoc infrastructure wherever you are"
+WifiP2P: "Wireless Peer to Peer Communication"
+WifiP2PDetails: ""
 
 MultilingualInterface: "Multilingual Interface"
-MultilingualInterfaceDetails: "Enjoy the application interface in your native language"
+MultilingualInterfaceDetails: ""
 ---
 
