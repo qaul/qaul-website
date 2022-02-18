@@ -10,14 +10,12 @@ title: "qaul.net Documentation"
 
 ## {{< fontawesome "book" >}} qaul.net Manual
 
-[Read the qaul.net manual](https://docs.qaul.net/manual)
+[Read the qaul.net manual](https://github.com/qaul/qaul.net/blob/main/docs/qaul.net-manual/README.md)
 
 
-## {{< fontawesome "book" >}} Rust API Documentation
+## {{< fontawesome "book" >}} Libqaul Rust API Documentation
 
-[Read the API documentation](https://docs.qaul.net/api)
-
-
-## {{< fontawesome "book" >}} HTTP-API Documentation
-
-[Read the HTTP-API documentation](https://docs.qaul.net/http-api)
+* [**libqaul** API documentation](https://docs.qaul.net/api/libqaul)
+  * [**qaul_info** routing information exchange network behaviour protokoll](https://docs.qaul.net/api/qaul_info)
+* [**qaul-cli** CLI client API documentation](https://docs.qaul.net/api/qaul_cli)
+* [**qauld** Server daemon API documentation](https://docs.qaul.net/api/qauld)

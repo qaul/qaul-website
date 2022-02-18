@@ -56,7 +56,7 @@ other = "Entwickler-Dokumentation"
 other = "Dokumentation"
 
 [QaulNetAPI]
-other = "qaul.net API Dokumentation"
+other = "libqaul rust API Dokumentation"
 
 [IrcChat]
 other = "IRC: #qaul.net auf freenode"
