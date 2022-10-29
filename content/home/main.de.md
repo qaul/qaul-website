@@ -1,4 +1,4 @@
 ---
-title: 'Internet-Unabhängige Vernetzte Wifi Kommunikation'
+title: 'Internet-Unabhängige Wifi Mesh Kommunikations App'
 ---
 

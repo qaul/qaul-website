@@ -1,4 +1,4 @@
 ---
-Title: 'Internet Independent Wireless Mesh Communication'
+Title: 'Internet Independent Wireless Mesh Communication App'
 ---
 

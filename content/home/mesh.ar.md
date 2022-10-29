@@ -1,14 +1,10 @@
 ---
 Description: |
-    **qaul** is an internet independent ad-hoc wireless mesh-network suite,
-    that allows everyday devices such as computers and smartphones
-    to create a **decentralised, free network**,
-    on which users can share files,
-    have voice calls and text conversations,
-    all in a single app.
+    **qaul** is an internet independent wireless mesh communication app.
+    Communicate peer-to-peer with the people around you, without any Internet or communication infrastructure.
 
-    In addition to this, it provides a powerful service library,
-    which enables others to write applications that communicate
-    and interact with an existing qaul network.
+    Automatically detect other qaul users nearby, broadcast public messages to everyone, create chat groups and send end to end encrypted chat messages, images & files.
+
+    Communicate directly from device to device via your local wifi network, or via the shared wifi network of your phone. Mesh local clouds together via manually added static nodes. Use this peer to peer communication method to communicate internet independently and completely off-the-grid.
 ---
 
