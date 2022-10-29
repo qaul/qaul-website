@@ -1,6 +1,6 @@
 ---
 Description: |
-    **qaul.net** is an internet independent ad-hoc wireless mesh-network suite,
+    **qaul** is an internet independent ad-hoc wireless mesh-network suite,
     that allows everyday devices such as computers and smartphones
     to create a **decentralised, free network**,
     on which users can share files,

@@ -1,16 +1,16 @@
 ---
-title: "qaul.net Documentation"
+title: "qaul Documentation"
 ---
-# {{< fontawesome "book-reader" >}} qaul.net Documentation
+# {{< fontawesome "book-reader" >}} qaul Documentation
 
 ## {{< fontawesome "chalkboard-teacher" >}} Tutorials
 
 [Read the tutorials](/tutorials)
 
 
-## {{< fontawesome "book" >}} qaul.net Manual
+## {{< fontawesome "book" >}} qaul Developer Manual
 
-[Read the qaul.net manual](https://github.com/qaul/qaul.net/blob/main/docs/qaul.net-manual/README.md)
+[Read the qaul developer manual](http://qaul.github.io/qaul.net/#/qaul/README)
 
 
 ## {{< fontawesome "book" >}} Libqaul Rust API Documentation

@@ -1,5 +1,5 @@
 ---
-title: 'Die qaul.net Software downloaden'
+title: 'Die qaul App downloaden'
 ---
 
 **Zur Zeit schreiben wir die qaul.net Software gerade neu.

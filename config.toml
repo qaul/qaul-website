@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "qaul.net – قول"
+title = "qaul – قول"
 theme = "hugo-theme-qaul"
 DefaultContentLanguage = "en"
 

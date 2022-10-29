@@ -1,18 +1,18 @@
 ---
-title: "Über qaul.net"
+title: "Über qaul"
 preview: manifestation.svg
 tags:
 - Über
 ---
-# Über qaul.net
+# Über qaul
 
-**qaul.net verwirklicht ein redundantes, offenes Kommunikationsprinzip, in dem WLAN-fähige Computer und Mobile-Devices direkt ein spontanes Netz bilden. Text messaging, File sharing oder Sprach-Anrufe werden unabhängig von Internet und Mobilfunk möglich. Wie ein Virus kann sich qaul.net verbreiten und eine OpenSource Community kann qaul.net beliebig modifizieren.**
+**qaul verwirklicht ein redundantes, offenes Kommunikationsprinzip, in dem WLAN-fähige Computer und Mobile-Devices direkt ein spontanes Netz bilden. Text messaging, File sharing oder Sprach-Anrufe werden unabhängig von Internet und Mobilfunk möglich. Wie ein Virus kann sich qaul verbreiten und eine OpenSource Community kann qaul beliebig modifizieren.**
 
 
 ![](manifestation.svg)
 
 
-In Zeiten der kommunikativen Blackouts in Ägypten, Burma oder Tibet, und angesichts der großen Netzausfällen durch Naturkatastrophen wird qaul.net zur Herausforderung, die individuellen Kommunikationsbedingungen kritisch zu betrachten und gemeinsam neue Horizonte zu ergründen.
+In Zeiten der kommunikativen Blackouts in Ägypten, Burma oder Tibet, und angesichts der großen Netzausfällen durch Naturkatastrophen wird qaul zur Herausforderung, die individuellen Kommunikationsbedingungen kritisch zu betrachten und gemeinsam neue Horizonte zu ergründen.
 
 
 ## Verheißung
@@ -91,16 +91,16 @@ All diese Anwendungen & Softwarelösungen verlangen einigen Konfigurationsaufwan
 
 Industrie und Netzbetreiber nutzen ihre Position und setzten in den letzten Jahren vermehrt neue, geschlossene Systeme durch. Der AppStore zwingt beispielsweise seit 2008 Entwickler und Anwender von iPhone, iPod oder iPad zum Weg über ein von Apple reguliertes, kostenpflichtiges Vertriebssystem. Besonders im Mobilfunk kooperieren Gerätehersteller und Netzbetreiber schon lange, um kostengünstigere oder konkurrierende Kommunikationsdienste zu unterdrücken.
 
-qaul.net verfolgt andere Ansätze und macht ein Provider-unabhängiges, sich selbst konfigurierendes Kommunikations-Netzwerk geräteübergreifend anwendbar. Netzwerk und Anwendung werden eins. 
+qaul verfolgt andere Ansätze und macht ein Provider-unabhängiges, sich selbst konfigurierendes Kommunikations-Netzwerk geräteübergreifend anwendbar. Netzwerk und Anwendung werden eins. 
 
-{{< figure src="qaul-mesh-blue.svg" caption="qaul.net verbindet unterschiedliche WLAN Geräte direkt zum Mesh-Netzwerk" >}}
+{{< figure src="qaul-mesh-blue.svg" caption="qaul verbindet unterschiedliche WLAN Geräte direkt zum Mesh-Netzwerk" >}}
 
 
 ## Call for freedom
 
 qaul ist arabisch und heißt Ausführung, Aussage, Rede, Wort, Spruch. qaul wird ausgesprochen wie das englische Wort “call”.
 
-qaul.net wird die individuellen und gesellschaftlichen Gestaltungsoptionen im digitalen Zeitalter reflektieren und exemplarisch realisieren. Damit lassen sich eigentliche Werkzeuge schaffen, um gemeinsam neue Erfahrungen und neue Einsichten zu erlangen.
+qaul wird die individuellen und gesellschaftlichen Gestaltungsoptionen im digitalen Zeitalter reflektieren und exemplarisch realisieren. Damit lassen sich eigentliche Werkzeuge schaffen, um gemeinsam neue Erfahrungen und neue Einsichten zu erlangen.
 
 
 >“Iran's diaspora was especially effective at promoting the Green Movement (2009) to an online audience that followed tweets, Facebook posts, and web videos avidly, hungry for news from the front lines of the struggle. Tens of thousands of Twitter users turned their profile pictures green in solidarity with the activists, and hundreds set up proxy servers to help Iranians evade Internet filters. For users of social media, the protests in Iran were an inescapable, global story. Tunisia, by contrast, hasn't seen nearly the attention or support from the online community.”
@@ -111,20 +111,20 @@ The first Twitter Revolution? Foreign Policy January 14, 2011*
 
 ## Überall und Jederzeit
 
-Ein Download der Software qaul.net auf WLAN-fähige Computer, Devices und Mobiltelefone reicht bereits aus, um zu partizipieren. Der Aufbau des Netzes und der Austausch passieren direkt durch das Tool qaul.net von Gerät zu Gerät über WLAN. Computer in Reichweite werden durch qaul.net angebunden und stellen dadurch die Verbindung zum Mesh-Netzwerk. Jeder kann mit seinem WLAN-fähigen Gerät das Netz vergrößern, verdichten oder ein eigenes Netzwerk beginnen.
+Ein Download der Software qaul auf WLAN-fähige Computer, Devices und Mobiltelefone reicht bereits aus, um zu partizipieren. Der Aufbau des Netzes und der Austausch passieren direkt durch das Tool qaul von Gerät zu Gerät über WLAN. Computer in Reichweite werden durch qaul angebunden und stellen dadurch die Verbindung zum Mesh-Netzwerk. Jeder kann mit seinem WLAN-fähigen Gerät das Netz vergrößern, verdichten oder ein eigenes Netzwerk beginnen.
 
-Das Community Projekt Freifunk / Funkfeuer und das Hilfsprogramm One Laptop per Child verwenden ein Mesh-Netzwerk. Von diesen Entwicklungen geht qaul.net weiter, überträgt die Vernetzung direkt an alle beliebigen WLAN Geräte und kombiniert die Server- und Routersoftware mit den Anwendungen und Applikationen. Auch der Zugang zum Netzwerk ist nicht mehr an eine zentrale Instanz gebunden, sondern kann wie ein Virus weiterwandern.
+Das Community Projekt Freifunk / Funkfeuer und das Hilfsprogramm One Laptop per Child verwenden ein Mesh-Netzwerk. Von diesen Entwicklungen geht qaul weiter, überträgt die Vernetzung direkt an alle beliebigen WLAN Geräte und kombiniert die Server- und Routersoftware mit den Anwendungen und Applikationen. Auch der Zugang zum Netzwerk ist nicht mehr an eine zentrale Instanz gebunden, sondern kann wie ein Virus weiterwandern.
 
 
 ## Participation in the Network
 
-qaul.net is different because it does not distinguish the difference 
+qaul is different because it does not distinguish the difference 
 between a parent network, the infrastructure, and the individual use of 
-the function. In the qaul.net, every device is part of the network, 
+the function. In the qaul, every device is part of the network, 
 while it is at the same time working as a functional input and 
 reception tool. The application software is directly coupled with the 
 server and router software. Instead of functioning with only certain 
-brands or systems, qaul.net establishes ONE network between ALL kind of 
+brands or systems, qaul establishes ONE network between ALL kind of 
 wireless devices. 
 
 {{< figure src="qaul-GUI.png" caption="Voice calls, file sharing, Twitter like messenger. An open API will invite programmers to write own applications." >}}
@@ -137,34 +137,34 @@ Die Software steht unter der GPL (Gnu Public License). Diese “virale” Open-S
 
 ## Reichweite
 
-WLAN-Router bilden heute ein sehr dichtes Netz. In den Städten sind mehr als ein Dutzend starke Signale üblich. Der Rekord einer direkten WLAN Verbindung gelang über eine Distanz von 300 km. Zwei handelsübliche Router wurden dabei mit improvisierten Richtantennen ausgestattet. Solche Formen der Überbrückung wären auch für qaul.net denkbar und würden das Netz nahezu unbegrenzt erweitern. 
+WLAN-Router bilden heute ein sehr dichtes Netz. In den Städten sind mehr als ein Dutzend starke Signale üblich. Der Rekord einer direkten WLAN Verbindung gelang über eine Distanz von 300 km. Zwei handelsübliche Router wurden dabei mit improvisierten Richtantennen ausgestattet. Solche Formen der Überbrückung wären auch für qaul denkbar und würden das Netz nahezu unbegrenzt erweitern. 
 
-Doch der primäre Fokus liegt auf der Nachbarschaft und dem Kollaborativen. qaul.net soll nicht primär die Router, sondern direkt die einzelnen Computer und Mobil-Devices einbinden. Damit wird das Netz ungleich dichter und spontane Netzwerke zwischen unterschiedlichsten Geräten sind jederzeit möglich. Mit jedem zugeschalteten Gerät wächst deshalb die Reichtweite des Netzes.
+Doch der primäre Fokus liegt auf der Nachbarschaft und dem Kollaborativen. qaul soll nicht primär die Router, sondern direkt die einzelnen Computer und Mobil-Devices einbinden. Damit wird das Netz ungleich dichter und spontane Netzwerke zwischen unterschiedlichsten Geräten sind jederzeit möglich. Mit jedem zugeschalteten Gerät wächst deshalb die Reichtweite des Netzes.
 
 {{< figure src="distance.svg" caption="Popular WLAN routers connected over a record distance of 300km. Connections between portable devices manage to bridge 40m. This distance can be augmented with sticks, routers and antennas." >}}
 
 
 ## Verbreitung
 
-qaul.net wird weitergegeben wie ein Virus. Die Nutzer/innen finden über den WLAN Zugang einen qaul.net Access. Wer diesen Access auswählt, erhält direkt über diese Verbindung eine Software zur Installation, kann dann umgehend qaul.net nutzen und zugleich selbst den Zugang wieder weiterreichen.  
+qaul wird weitergegeben wie ein Virus. Die Nutzer/innen finden über den WLAN Zugang einen qaul Access. Wer diesen Access auswählt, erhält direkt über diese Verbindung eine Software zur Installation, kann dann umgehend qaul nutzen und zugleich selbst den Zugang wieder weiterreichen.  
 
-{{< figure src="viral-spreading.svg" caption="The program is passed on like a virus: from user to user. When a new user discovers a wifi qaul.net access one can download the software from this very connection. After the installation one can use it immediately, and pass it on to others. qaul.net interconnects computers and mobile devices via wifi, and overturns the division into infrastructure and use." >}}
+{{< figure src="viral-spreading.svg" caption="The program is passed on like a virus: from user to user. When a new user discovers a wifi qaul access one can download the software from this very connection. After the installation one can use it immediately, and pass it on to others. qaul interconnects computers and mobile devices via wifi, and overturns the division into infrastructure and use." >}}
 
 
 ## Community
 
-In strukturschwachen Gebieten kann qaul.net eine Alternative zu einer fehlenden oder teuren Infrastruktur bieten. Denkbar sind Erweiterungen als Messenger, als Arbeits- oder Lerntool. Bei einem Ausfall der Infrastruktur kann qaul.net ein Kommunikationstool bereitstellen, das sich in der Nachbarschaft ausbreitet. Doch auch als reine Spielerei sensibilisiert qaul.net für die Infrastruktur, die Bedingungen und Abhängigkeiten – und bietet Anreiz, neue Formen der Vernetzung auszuprobieren. 
+In strukturschwachen Gebieten kann qaul eine Alternative zu einer fehlenden oder teuren Infrastruktur bieten. Denkbar sind Erweiterungen als Messenger, als Arbeits- oder Lerntool. Bei einem Ausfall der Infrastruktur kann qaul ein Kommunikationstool bereitstellen, das sich in der Nachbarschaft ausbreitet. Doch auch als reine Spielerei sensibilisiert qaul für die Infrastruktur, die Bedingungen und Abhängigkeiten – und bietet Anreiz, neue Formen der Vernetzung auszuprobieren. 
 
 
 ## Neue Handlungs- und Reflexionsansätze
 
 Längst sind wir im Zeitalter konstruktiver und kollaborativer Kulturtechniken angelangt. Individuelle Ansichten sind von den Kommunikationsbedingungen geprägt. Die Abhängigkeit lässt sich jedoch kaum richtig einschätzen, so lange, bis wir plötzlich gefangen und isoliert sind im Blackout. 
 
-**qaul.net erlaubt uns, hinter die Fronten zu blicken und den Bereich der Ausblendungen jenseits der bestehenden Reichweiten und Betrachtungshorizonte zu sondieren.**
+**qaul erlaubt uns, hinter die Fronten zu blicken und den Bereich der Ausblendungen jenseits der bestehenden Reichweiten und Betrachtungshorizonte zu sondieren.**
 
 
 ## Tools for the Next Revolution
 
-Die individuelle Unabhängigkeit und eine eigene Sichtweise ermöglicht erst die System-Kritik und eine Suche nach Alternativen. Diese Fähigkeit eilt selbst der Redefreiheit voraus. qaul.net ist deshalb dieser Dimension von Unabhängigkeit und Bestärkung des Einzelnen gewidmet. Das Projekt öffnet uns Einblicke in eine Gegenwart, die einerseits globaler wurde, die uns andererseits aber auch eine entscheidende Abhängigkeit von einer Infrastruktur und bestimmten Tools brachte. Die Maxime, weltweit und virtuell zu kommunizieren, kehrt qaul.net um und blickt stattdessen aus der spezifischen Position des Hier und Jetzt, schaut in die unmittelbare Nachbarschaft und von da hinaus in die weite Welt. 
+Die individuelle Unabhängigkeit und eine eigene Sichtweise ermöglicht erst die System-Kritik und eine Suche nach Alternativen. Diese Fähigkeit eilt selbst der Redefreiheit voraus. qaul ist deshalb dieser Dimension von Unabhängigkeit und Bestärkung des Einzelnen gewidmet. Das Projekt öffnet uns Einblicke in eine Gegenwart, die einerseits globaler wurde, die uns andererseits aber auch eine entscheidende Abhängigkeit von einer Infrastruktur und bestimmten Tools brachte. Die Maxime, weltweit und virtuell zu kommunizieren, kehrt qaul um und blickt stattdessen aus der spezifischen Position des Hier und Jetzt, schaut in die unmittelbare Nachbarschaft und von da hinaus in die weite Welt. 
 
-Der Name qaul.net ist eine Hommage an die arabischen Aufständischen, das Projekt funktioniert genau so wie eine Gruppe von Aktivisten, die sich findet und wagt, eigene Aktionspotentiale zu erproben, als Lichtblick gegenüber einer dominanten, scheinbar unverrückbaren Machtstruktur. 
+Der Name qaul ist eine Hommage an die arabischen Aufständischen, das Projekt funktioniert genau so wie eine Gruppe von Aktivisten, die sich findet und wagt, eigene Aktionspotentiale zu erproben, als Lichtblick gegenüber einer dominanten, scheinbar unverrückbaren Machtstruktur. 

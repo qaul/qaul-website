@@ -1,6 +1,6 @@
 ---
 title: 'News'
-description: 'Neuigkeiten von qaul.net'
+description: 'Neuigkeiten von qaul'
 ---
 
-# qaul.net News
+# qaul News

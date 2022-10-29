@@ -1,5 +1,5 @@
 ---
-title: 'Help us Develop qaul.net'
+title: 'Help us Develop qaul'
 description: 'We are looking for more developers'
 date: 2020-03-30
 startpage: false
@@ -7,9 +7,9 @@ startpage: false
 
 # We are looking for Developers
 
-**Help us develop qaul.net. There are interesting challenges ahead of us.**
+**Help us develop qaul. There are interesting challenges ahead of us.**
 
-qaul.net has a stable rust structure and is developing fast. We are approaching the alpha version and are looking for more people to join our development team.
+qaul has a stable rust structure and is developing fast. We are approaching the alpha version and are looking for more people to join our development team.
 
 Interested? Great! Please feel welcome to write us an [email](mailto:contact@qaul.net). 
 

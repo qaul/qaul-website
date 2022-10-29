@@ -29,19 +29,16 @@ other = "Mitmachen"
 other = "Seiten"
 
 [QaulNetCommunity]
-other = "qaul.net Community"
+other = "qaul Community"
 
 [About]
 other = "Über"
 
 [AboutQaulNet]
-other = "Über qaul.net"
+other = "Über qaul"
 
 [QaulNetRepository]
-other = "qaul.net Quelltext"
-
-[WebSiteRepository]
-other = "Web Seiten Quelltext"
+other = "qaul Quelltext"
 
 [BugReport]
 other = "Einen Fehler melden"

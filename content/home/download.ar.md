@@ -1,5 +1,5 @@
 ---
-title: 'Download qaul.net App'
+title: 'Download qaul App'
 ---
 
 **We are rewriting qaul.net at the moment. 

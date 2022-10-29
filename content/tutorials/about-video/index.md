@@ -1,5 +1,5 @@
 ---
-title: About qaul.net Video
+title: About qaul Video
 preview: qaul-about-video.jpg
 tags:
 - About

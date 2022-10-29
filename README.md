@@ -1,7 +1,7 @@
-# qaul.net Web Site
+# qaul Web Site
 
 **This repository contains the all sources, templates and content of the
-qaul.net project web site at [https://qaul.net](https://qaul.net)**
+qaul project web site at [https://qaul.net](https://qaul.net)**
 
 Your very welcome to participate in the development of this web site.
 
