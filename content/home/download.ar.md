@@ -2,5 +2,4 @@
 title: 'Download qaul App'
 ---
 
-**We are rewriting qaul.net at the moment. 
-Until qaul.net 2.0 is ready, you can download the 1.0 legacy app.**
+**We are testing qaul. You can download the installers from here.**

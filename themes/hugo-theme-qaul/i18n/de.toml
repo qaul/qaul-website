@@ -43,6 +43,9 @@ other = "qaul Quelltext"
 [BugReport]
 other = "Einen Fehler melden"
 
+[TranslateQaul]
+other = "Übersetze die qaul App"
+
 [CompatibilityList]
 other = "Kompatibilitätsliste"
 
@@ -53,19 +56,10 @@ other = "Entwickler-Dokumentation"
 other = "Dokumentation"
 
 [QaulNetAPI]
-other = "libqaul rust API Dokumentation"
+other = "libqaul Rust API Dokumentation"
 
-[IrcChat]
-other = "IRC: #qaul.net auf freenode"
-
-[CommunityMailinglist]
-other = "Community-Mailing-Liste"
-
-[AnnouncementMailinglist]
-other = "Mailing-Liste für Mitteilungen"
-
-[VoiceChatMeeting]
-other = "Offenes wöchentliches Voice-Chat-Meeting, Montags, 17:00 UTC"
+[MatrixChat]
+other = "Matrix Chat-Raum `#qaul.net:c-base.org`"
 
 [Privacy]
 other = "Impressum & Datenschutz"

@@ -72,6 +72,7 @@
     </div>
 </section>
 {{ end }}
+<!--
 {{ with .Site.GetPage "home/screenshots" }}
 <section id="screenshots" class="dark">
 <div class="page">
@@ -80,42 +81,45 @@
 </div>
 </section>
 {{ end }}
+-->
 {{ with .Site.GetPage "home/download" }}
-<section id="download" class="blue">
+<section id="download" class="dark">
 <div class="page">
     <h1>{{ .Title }}</h1>
     <div class="s12">
         {{ .Content }}
     </div>
     <div class="distro m3 s6 box">
-        <a href="https://get.qaul.net/legacy/qaul.net-fat_1.0.0-beta5_x86_64_05022016.deb">
-        {{ partial "fontawesome.html" "ubuntu" }}
-        Ubuntu 18.04 LTS
-        </a>
-    </div>
-    <div class="distro m3 s6 box">
-        <a href="https://get.qaul.net/legacy/qaul.net-fat_1.0.0-beta5_win32_05022016.exe">
-        {{ partial "fontawesome.html" "windows" }}
-        Windows 7-10
-        </a>
-    </div>
-    <div class="distro m3 s6 box">
-        <a href="https://get.qaul.net/legacy/qaul.net-fat_1.0.0-beta5_OSX_05022016.dmg">
-        {{ partial "fontawesome.html" "apple" }}
-        OSX
-        </a>
-    </div>
-    <div class="distro m3 s6 box">
-        <a href="https://get.qaul.net/legacy/qaul.net-fat_1.0.0-beta5_android_05022016.apk">
+        <a href="https://play.google.com/store/apps/details?id=net.qaul.qaul_app" target="_blank">
         {{ partial "fontawesome.html" "android" }}
-        Android</a><br/> 
-        (<a href="https://github.com/qaul/qaul.net_release-1.0.0/blob/main/doc/Android_Devices.md" target="_blank">{{ i18n "CompatibilityList" }}</a>)
+        Android Playstore</a><br/>
+        <br/>
+        <a href="https://github.com/qaul/qaul.net/releases/download/v2.0.0-beta.6+821-flutter/qaul-2.0.0-beta.6+827.apk">Download Universal APK [138MB]</a>
+    </div>
+    <div class="distro m3 s6 box">
+        <a href="https://github.com/qaul/qaul.net/releases/download/v2.0.0-beta.6+821-flutter/qaul_installer_2.0.0-beta.6+821.exe">
+        {{ partial "fontawesome.html" "windows" }}
+        Windows Installer
+        </a>
+    </div>
+    <div class="distro m3 s6 box">
+        <a href="https://github.com/qaul/qaul.net/releases/download/v2.0.0-beta.6+821-flutter/qaul-2.0.0-beta.6+821.dmg">
+        {{ partial "fontawesome.html" "apple" }}
+        MacOS Installer
+        </a>
+    </div>
+    <div class="distro m3 s6 box">
+        <a href="https://github.com/qaul/qaul.net/releases/download/v2.0.0-beta.6+821-flutter/qaul-app-2.0.0-beta.6+821.snap">
+        {{ partial "fontawesome.html" "linux" }}
+        Linux Snap Package
+        </a>
     </div>
 </div>
+<p><a href="https://github.com/qaul/qaul.net/releases" target="_blank">All Releases &gt;&gt;</a></p>
 </section>
 {{ end }}
 {{ with .Site.GetPage "home/participation" }}
-<section id="participation" class="dark">
+<section id="participation" class="blue">
 <div class="page">
     <h1>{{ .Title }}</h1>
     <nav>
@@ -125,14 +129,12 @@
             <li><a href="{{ "tutorials" | relLangURL }}">
                 {{ partial "fontawesome.html" "chalkboard-teacher" }}
                 {{ i18n "Tutorials" }}</a></li>
-            <li><a href="https://github.com/qaul/qaul.net/blob/main/docs/qaul.net-manual/README.md" target="_blank">
+            <li><a href="http://qaul.github.io/qaul.net/#/qaul/README" target="_blank">
                 {{ partial "fontawesome.html" "book" }}
                 {{ i18n "QaulNetManual" }}</a></li>
             <li><a href="https://docs.qaul.net/api/libqaul" target="_blank">
                 {{ partial "fontawesome.html" "book" }}
                 {{ i18n "QaulNetAPI" }}</a></li>
-            <li><a href="{{ "documentation" | relLangURL }}">
-                {{ i18n "More" }}</a></li>
             </ul>
     </div>
     <div class="m4 s6 box participation__box">
@@ -141,12 +143,12 @@
             <li><a href="https://github.com/qaul/qaul.net" target="_blank">
                 {{ partial "fontawesome.html" "git-square" }} 
                 {{i18n "QaulNetRepository"}}</a></li>
-            <li><a href="https://github.com/qaul/qaul-website" target="_blank">
-                {{ partial "fontawesome.html" "git-square" }}
-                {{i18n "WebSiteRepository"}}</a></li>
             <li><a href="https://github.com/qaul/qaul.net/issues" target="_blank">
                 {{ partial "fontawesome.html" "bug" }}
                 {{i18n "BugReport"}}</a></li>
+            <li><a href="https://github.com/qaul/qaul-website" target="_blank">
+                {{ partial "fontawesome.html" "language" }}
+                {{i18n "TranslateQaul"}}</a></li>
         </ul>
     </div>
     <div class="m4 s6 box participation__box">
@@ -155,29 +157,11 @@
             <li><a href="mailto:contact@qaul.net" target="_blank">
                 {{ partial "fontawesome.html" "envelope" }} 
                 contact@qaul.net</a></li>
-            <li><a href="https://webchat.freenode.net/#qaul.net" target="_blank">
+            <li><a href="https://matrix.to/#/#qaul.net:c-base.org" target="_blank">
                 {{ partial "fontawesome.html" "comments" }} 
-                {{ i18n "IrcChat" }}</a></li>
-            <li><a href="https://lists.sr.ht/%7Eqaul/community" target="_blank">
-                {{ partial "fontawesome.html" "envelope-open-text" }}
-                {{ i18n "CommunityMailinglist" }}</a></li>
-            <li><a href="https://lists.sr.ht/%7Eqaul/announcements" target="_blank">
-                {{ partial "fontawesome.html" "bullhorn" }}
-                {{ i18n "AnnouncementMailinglist" }}</a></li>
-            <!--<li><a href="https://meet.jit.si/qaul.net" target="_blank">
-                {{ partial "fontawesome.html" "headset" }} 
-                {{ i18n "VoiceChatMeeting" }}</a></li>-->
-            </ul>
-    </div>
-<!--
-    <div class="xl3 s6 box">
-        <h3>{{ partial "fontawesome.html" "globe" }}</h3>
-        <ul>
-            <li><a href="#">
-                Translate this web site</a></li>
+                {{ i18n "MatrixChat" }}</a></li>
         </ul>
     </div>
--->
     </nav>
 </div>
 </section>
