@@ -1,5 +1,5 @@
 ---
-title: "qaul App"
+title: "qaul App User Documentation"
 preview: qaul-splash.jpg
 tags:
 - App
