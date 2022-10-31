@@ -17,7 +17,7 @@ Choose the name wisely:
 - You can stay anonymous, but probably you would like to be recognised by your friends.
 - Your profile is defined with this user name, you can’t change the name without creating a new profile.
 
-![](chat.png)
+![](public-2.png)
 
 |                      |                                                                                  |
 |----------------------|:--------------------------------------------------------------------------------:|
