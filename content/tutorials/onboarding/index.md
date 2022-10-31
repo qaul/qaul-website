@@ -1,8 +1,7 @@
 ---
-title: "Onboarding"
+title: "Introduction"
 preview: onboarding-splash.jpg
 tags:
-- Onboarding
 ---
 
 ![](start-alt-ausschnitt.png)
