@@ -13,9 +13,7 @@ qaul is a free, open-source communication app, which allows you to communicate w
 
 ## Download & Install qaul.net
 
-App stores: Google Play, iOS Store, Apple App Store, Linux snap store
-
-You can find all the latest links and downloads on this web site <https://qaul.net/download>
+You can find all the latest links and downloads here <https://qaul.net/#download>
 
 ## Start qaul.net
 
