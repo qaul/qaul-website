@@ -21,7 +21,9 @@ The application name is `qauld`
 
 ### For Debian based Systems (Ubuntu, Raspberry OS, etc.)
 
-Download the latest Debian installer from the github release page <https://github.com/qaul/qaul.net/releases/tag/v2.0.0-beta.6-rust>
+Download the latest Debian installer from the github release page:
+
+[Download qauld]
 
 Install it on your system by either double clicking it and following the install instructions or via the terminal:
 
@@ -36,7 +38,7 @@ sudo dpkg -i qauld_2.0.0_amd64.deb
 
 You can download the latest binaries directly from github:
 
-<https://github.com/qaul/qaul.net/releases/tag/v2.0.0-beta.6-rust>
+[Download qauld]
 
 Download `qauld` and save it in an own folder on your computer.
 
@@ -100,3 +102,5 @@ To run the node after the first time, you can simply execute:
 ```bash
 ./qauld
 ```
+
+[Download qauld]: https://github.com/qaul/qaul.net/releases
