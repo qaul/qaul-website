@@ -13,7 +13,7 @@ tags:
 
 You can run qaul in the background as a community node. For example, on a server in the internet, or locally on a Raspberry Pi.
 
-It is as simple and easy to set up as running the qaul.net app.
+It is as simple and easy to set up as running the qaul app.
 
 The application name is `qauld`
 
@@ -66,18 +66,18 @@ When your community node is running in your local wifi, all devices running qaul
 
 When your community node is running on a server on the Internet, you can connect
 
-By default the node is listening on port 9229. 
+By default the node is listening on port 9229.
 
 The information to access your node is therefore the IP address of your device and the port number. It is displayed in the scheme `/{IP PROTOCOL VERSION}/{IP ADDRESS}/tcp/{PORT NUMBER}`.
 Below you see an example of the qaul community node. Just exchange the IP address in it with your devices address:
 
-```
+```txt
 /ip4/144.91.74.192/tcp/9229
 ```
 
 Now people running the qaul app can add it under settings > Add internet node
 
-![](settings.png)
+![""](settings.png)
 
 ## Maintaining the Community Node
 
@@ -91,7 +91,7 @@ user_accounts:
 ```
 
 Your sever is fixed on the port 9229, you can change it to any other port you want.
-To change the port under which the node is running change the port number of the multiaddress in the `config.yaml `file.
+To change the port under which the node is running change the port number of the multiaddress in the `config.yaml` file.
 
 ```yaml
   listen: /ip4/0.0.0.0/tcp/9229
