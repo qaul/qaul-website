@@ -1,5 +1,15 @@
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		 url('../fonts/roboto-v30-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		 url('../fonts/roboto-v30-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+
 :root {
-	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 
 	/* colors */
 	--c-white-bg: #ffffff;
@@ -38,6 +48,9 @@ body {
 	padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
 h1{font-size:2.5rem;}
 h2{font-size:2rem;}
 h3{font-size:1.75rem;}
@@ -147,7 +160,6 @@ nav.main .languages ul {
 
 nav.main a {
 	color: var(--c-blue-txt);
-	font-weight: bold;
 	display: block;
 	padding-left: 0.75rem;
 	padding-right: 0.75rem;
@@ -166,7 +178,6 @@ nav.main a.active:hover {
 	background-color: var(--c-blue-bg-highlite);
 }
 nav.main a.logo {
-	font-weight: bold;
 	padding-left: 1rem;
 	padding-right: 1rem;
 	white-space: nowrap;
@@ -294,7 +305,6 @@ footer h5 {
 	font-size: 5vw;
 }
 #description h1 {
-	font-weight: inherit;
 	top: 20%;
 	width: 100%;
 }
@@ -361,9 +371,6 @@ footer h5 {
 #download .distro {
 	margin-bottom: 2rem;
 	margin-top: 2rem;
-}
-#download .distro a {
-	font-weight: bold;
 }
 #download .distro a .inline-svg {
 	width: 7rem;
@@ -519,7 +526,7 @@ h1.top {
 }
 .headline .line {
 	flex: 1;
-	margin. 0;
+	margin: 0;
 	padding: 0;
 }
 .headline .line hr {
