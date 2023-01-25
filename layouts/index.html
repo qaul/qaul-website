@@ -41,35 +41,44 @@
 <div class="page">
     <h1>{{ .Title }}</h1>
     <div class="feature s6 m4 box">
-        {{ partial "fontawesome.html" "comments" }}
-        <h3>{{ .Params.TextMessaging }}</h3>
-        <p>{{ .Params.TextMessagingDetails }}</p>
+        {{ partial "fontawesome.html" "public" }}
+        <h3>{{ .Params.PublicBroadcast }}</h3>
+        <p>{{ .Params.PublicBroadcastDetails }}</p>
+    </div>
+    <div class="feature s6 m4 box">
+        {{ partial "fontawesome.html" "chat" }}
+        <h3>{{ .Params.Chat }}</h3>
+        <p>{{ .Params.ChatDetails }}</p>
     </div>
     <div class="feature s6 m4 box">
         {{ partial "fontawesome.html" "copy" }}
-        <h3>{{ .Params.FileSharing }}</h3>
-        <p>{{ .Params.FileSharingDetails }}</p>
+        <h3>{{ .Params.FilesPhotos }}</h3>
+        <p>{{ .Params.FilesPhotosDetails }}</p>
     </div>
     <div class="feature s6 m4 box">
-        {{ partial "fontawesome.html" "phone-volume" }}
-        <h3>{{ .Params.VoiceChat }}</h3>
-        <p>{{ .Params.VoiceChatDetails }}</p>
+        {{ partial "fontawesome.html" "people" }}
+        <h3>{{ .Params.Discovery }}</h3>
+        <p>{{ .Params.DiscoveryDetails }}</p>
     </div>
     <div class="feature s6 m4 box">
-        {{ partial "fontawesome.html" "users" }}
-        <h3>{{ .Params.UserDiscovery }}</h3>
-        <p>{{ .Params.UserDiscoveryDetails }}</p>
+        {{ partial "fontawesome.html" "network" }}
+        <h3>{{ .Params.NetworkOverview }}</h3>
+        <p>{{ .Params.NetworkOverviewDetails }}</p>
     </div>
     <div class="feature s6 m4 box">
-        {{ partial "fontawesome.html" "wifi" }}
-        <h3>{{ .Params.WifiP2P }}</h3>
-        <p>{{ .Params.WifiP2PDetails }}</p>
+        {{ partial "fontawesome.html" "stopwatch" }}
+        <h3>{{ .Params.DelayTolerant }}</h3>
+        <p>{{ .Params.DelayTolerantDetails }}</p>
     </div>
     <div class="feature s6 m4 box">
         {{ partial "fontawesome.html" "language" }}
-        <h3>{{ .Params.MultilingualInterface }}</h3>
-        <p>{{ .Params.MultilingualInterfaceDetails }}</p>
+        <h3>{{ .Params.Multilingual }}</h3>
+        <p>{{ .Params.MultilingualDetails }}</p>
     </div>
+    <p class="s12 m12 box">
+        <a href="{{ "tutorials/user-documentation" | relLangURL }}">
+            {{ .Params.UserDocumentation }}</a>
+        </p>
 </section>
 {{ end }}
 <!--

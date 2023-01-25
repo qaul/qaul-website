@@ -1,22 +1,27 @@
 ---
-title: "Features"
+title: "qaul Features"
 
 # Feature Text Translations
-TextMessaging: "Text Messaging"
-TextMessagingDetails: "Send public, encrypted group and private messages to anyone you meet on the network"
+PublicBroadcast: "Public Broadcast Messages"
+PublicBroadcastDetails: "Send a message to everyone connected."
 
-FileSharing: "File Sharing"
-FileSharingDetails: "Share files either directly, or via re-usable, torrent-like share links"
+Chat: "Encrypted Chat"
+ChatDetails: "End-to-end encrypted chat messages & group-chat."
 
-VoiceChat: "Voice Chat"
-VoiceChatDetails: "Have voice calls and broadcast live radio shows"
+FilesPhotos: "Send Files & Photos"
+FilesPhotosDetails: "Send files and photos via the chat messenger."
 
-UserDiscovery: "User Discovery"
-UserDiscoveryDetails: "Discover users and services around you, verify their identity when you meet"
+Discovery: "User Discovery"
+DiscoveryDetails: "Users in the same Wifi are automatically discovered. All interconnected users are displayed and reachable."
 
-WifiP2P: "Ad-hoc Peer to Peer Network"
-WifiP2PDetails: "Don't rely on existing infrastructure - become part of new ad-hoc infrastructure wherever you are"
+NetworkOverview: "Network Overview"
+NetworkOverviewDetails: "See who is connected and reachable"
 
-MultilingualInterface: "Multilingual Interface"
-MultilingualInterfaceDetails: "Enjoy the application interface in your native language"
+DelayTolerant: "Delay Tolerant Network"
+DelayTolerantDetails: "Send messages to users who are not currently connected."
+
+Multilingual: "Multilingual App"
+MultilingualDetails: "The app has been translated to many languages and can be easily translated to new ones."
+
+UserDocumentation: "read more in the qaul User Documentation ..."
 ---

@@ -1,23 +1,28 @@
 ---
-title: 'Funktionen von qaul'
+title: "Funktionen von qaul"
 
 # Feature Text Translations
-TextMessaging: 'Text Mitteilungen'
-TextMessagingDetails: ""
+PublicBroadcast: "Öffentliche Mitteilungen"
+PublicBroadcastDetails: "Sende Mitteilungen an alle verbundenen Personen."
 
-FileSharing: 'File-Sharing'
-FileSharingDetails: ""
+Chat: "Verschlüsselter Chat"
+ChatDetails: "Ende-zu-Ende verschlüsselter Chat & Gruppenchat."
 
-VoiceChat: 'Sprachanrufe'
-VoiceChatDetails: ""
+FilesPhotos: "Sende Dokumente & Fotos"
+FilesPhotosDetails: "Sende Dokumente und Fotos via den Chat."
 
-UserDiscovery: 'Sieh alle Teilnehmenden'
-UserDiscoveryDetails: ""
+Discovery: "Automatische Benutzer:innen-Erkennung"
+DiscoveryDetails: "Benutzer:innen im selben Wlan werden automatisch verbunden. Alle verbundenen Benutzer:innen werden angezeigt und können benachrichtig werden."
 
-WifiP2P: 'Drahtlose Netwerkunabhängige Nutzer-zu-Nutzer Kommunikation'
-WifiP2PDetails: ""
+NetworkOverview: "Netzwerk-Übersicht"
+NetworkOverviewDetails: "Entdecke wer verbunden und erreichbar ist."
 
-MultilingualInterface: 'Mehrsprachiges Benutzerinterface'
-MultilingualInterfaceDetails: ""
+DelayTolerant: "Verzögerungs-Resistentes Netzwerk"
+DelayTolerantDetails: "Sende Mitteilungen zu nutzern, die zur Zeit nicht verbunden sind."
+
+Multilingual: "Mehrsprachige App"
+MultilingualDetails: "Die App wurde bereits in viele Sprachen übersetzt und kann einfach in neue Sprachen übersetzt werden."
+
+UserDocumentation: "lies mehr in der qaul Benutzer-Dokumentation ..."
 ---
 
