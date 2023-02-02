@@ -60,6 +60,16 @@ You start the node with the following command:
 ./qauld --name="Your Node's Name"
 ```
 
+By default the node is listening on port 9229.
+
+You can optionally set the port number at first startup via the command line argument.
+
+```bash
+./qauld --name="Your Node's Name" --port="9229"
+```
+
+Afterwards you can change the port number in the `config.yaml` file which is automatically generated at first startup.
+
 ## Advertising your Node
 
 When your community node is running in your local wifi, all devices running qaul in the same wifi will find it automatically.
