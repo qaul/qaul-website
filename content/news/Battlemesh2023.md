@@ -2,7 +2,7 @@
 title: 'Wireless Battelmesh Convention 2023'
 description: 'Meet us in Barcelona, 8-15 May'
 date: 2023-04-23
-startpage: true
+startpage: false
 ---
 
 # qaul endorses Wireless Battlemesh v15
