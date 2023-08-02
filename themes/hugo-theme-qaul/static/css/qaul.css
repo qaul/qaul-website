@@ -67,6 +67,21 @@ a:hover {
 	text-decoration: underline;
 }
 
+code {
+	background-color: var(--c-bright-bg);
+	color: var(--c-bright-txt);
+}
+
+blockquote {
+	margin: 0;
+	background-color: var(--c-bright-bg);
+	color: var(--c-bright-txt);
+	padding: 1rem;
+}
+blockquote a {
+	color: var(--c-bright-a)
+}
+
 /* general backgrounds */
 .white {
 	background-color: var(--c-white-bg);
@@ -94,7 +109,7 @@ a:hover {
 	color: var(--c-bright-txt);
 }
 .bright a {
-	color: --c-bright-
+	color: var(--c-bright-a)
 }
 
 
