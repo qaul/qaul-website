@@ -49,7 +49,7 @@ When you start the community node for the first time you can provide a name for 
 You start the node with the following command:
 
 ```bash
-./qauld --name="Your Node's Name"
+qauld --name="Your Node's Name"
 ```
 
 By default the node is listening on port 9229.
@@ -57,7 +57,7 @@ By default the node is listening on port 9229.
 You can optionally set the port number at first startup via the command line argument.
 
 ```bash
-./qauld --name="Your Node's Name" --port="9229"
+qauld --name="Your Node's Name" --port="9229"
 ```
 
 Afterwards you can change the port number in the `config.yaml` file which is automatically generated at first startup.
@@ -102,7 +102,7 @@ To change the port under which the node is running change the port number of the
 To run the node after the first time, you can simply execute:
 
 ```bash
-./qauld
+qauld
 ```
 
 [Download qauld]: https://github.com/qaul/qaul.net/releases
