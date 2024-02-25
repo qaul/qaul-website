@@ -40,17 +40,9 @@ You can download the latest binaries directly from github:
 
 [Download qauld]
 
-Download `qauld` and save it in an own folder on your computer.
-
-Once you start the app, it will store the configuration and the data base into this folder.
+Once you start the app, it will store the configuration and the data base into the folder of the working directory from which you start the program from.
 
 ## Start Community Node for the First Time
-
-Make the binary executable
-
-```bash
-chmod +x qauld
-```
 
 When you start the community node for the first time you can provide a name for your node as a command line argument.
 
