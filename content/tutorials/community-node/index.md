@@ -7,6 +7,7 @@ tags:
 - Server
 - RaspberryPi
 - CLI
+weight: 300
 ---
 
 # How To run a qaul Community Node

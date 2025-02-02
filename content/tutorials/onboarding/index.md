@@ -2,6 +2,7 @@
 title: "Introduction"
 preview: onboarding-splash.jpg
 tags:
+weight: 200
 ---
 
 ![](start-alt-ausschnitt.png)
