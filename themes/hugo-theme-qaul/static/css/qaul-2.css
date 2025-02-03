@@ -552,6 +552,11 @@ h1.top {
 	align-items: center;
 }
 
+.tutorial article pre {
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
 
 /* news */
 /* news index teasers */
