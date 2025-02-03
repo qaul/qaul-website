@@ -475,7 +475,6 @@ h1.top {
 	margin: 0;
 	padding: 2rem;
 	text-align: center;
-	display: none;
 }
 
 .page article {
@@ -607,8 +606,6 @@ h1.top {
 }
 
 
-
-
 /* news pages */
 article.news h1 {
 	padding: 0 1rem;
@@ -628,4 +625,18 @@ a.newslist:hover {
 .newslist .date {
 	font-size: smaller;
 	color: var(--c-footer-txt);
+}
+
+
+/* 404 Error Page */
+main.error {
+	padding-top: 5rem;
+	padding-bottom: 10rem;
+}
+main.error h1 {
+	color: #000;
+	text-align: center;
+}
+main.error h1.top {
+	font-weight: bold;
 }
