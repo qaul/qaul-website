@@ -1,5 +1,6 @@
 ---
 title: 'Über qaul'
+slug: about
 ---
 
 # About qaul

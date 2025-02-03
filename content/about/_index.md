@@ -1,5 +1,6 @@
 ---
 title: 'About qaul'
+slug: about
 ---
 
 # About qaul

@@ -1,3 +1,4 @@
 ---
 title: "Tutorials"
+slug: tutorials
 ---

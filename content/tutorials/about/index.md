@@ -68,7 +68,7 @@ cooperates with authorities and oppressors around the world.
 
 {{< figure src="mobile-network.svg" caption="Mobile telephony connects the devices via antenna or satellite" >}}
 
-{{< figure src="network-structure.svg" caption="Computer connections that exceed the local network, run via routers, servers, providers, backbones, ..." >}}
+{{< figure src="network-structure.svg" caption="Computer connections that exceed the local network, run via routers, servers, providers, backbones, etc." >}}
 
 
 ## Blackout

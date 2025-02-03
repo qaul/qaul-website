@@ -6,7 +6,6 @@
 		 url('../fonts/roboto-v30-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
 		 url('../fonts/roboto-v30-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-  
 
 :root {
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -17,13 +16,13 @@
 	--c-white-txt: #333333;
 	--c-white-a: #0089c7;
 	--c-white-border: #333333;
-	--c-blue-bg: #0089c7;
-	--c-blue-bg-highlite: #1577ad;
-	--c-blue-txt: #eeeeee;
-	--c-blue-a: #ffffff;
+	--c-blue-bg: #ffffff;
+	--c-blue-bg-highlite: #d0e3f0;
+	--c-blue-txt: #39ace0;
+	--c-blue-a: #0089c7;
 	--c-blue-border: #ffffff;
 	--c-bright-bg: #d0e3f0;
-	--c-bright-bg-highlite: ;
+	--c-bright-bg-highlite: #bcd7e9;
 	--c-bright-txt: #444444;
 	--c-bright-a: #000000;
 	--c-grey-bg: #ececec;
@@ -139,6 +138,9 @@ nav.main div {
 	margin:0;
 	margin-top: 1rem;
 }
+nav.main div:last-of-type {
+	margin-right: 0.5rem;
+}
 nav.main ul {
 	display: flex;
 	justify-content: flex-end;
@@ -151,7 +153,7 @@ nav.main li {
 	padding: 0;
 	white-space: nowrap;
 }
-nav.main .inline-svg.git-square {
+nav.main .inline-svg.github {
 	top: 0.1rem;
 }
 nav.main .inline-svg.language {
@@ -308,23 +310,31 @@ footer h5 {
 }
 
 #description {
+	max-width: var(--s-pagewidth);
+	margin: 0 auto 0 auto;
+}
+#description div {
+	margin: 0;
 	padding: 0;
-	padding-top: 56.25%;
-	position: relative;
-	background-image: url('/img/qaul-logo-white.svg');
-	background-position: 25vw 0vw;
-	background-repeat: no-repeat;
+}
+#description img {
+	max-width: 100%;
 }
 #description h2, #description h1 {
-	position: absolute;
-	font-size: 5vw;
+	color: var(--c-white-txt);
+	font-weight: bold;
 }
 #description h1 {
-	top: 20%;
-	width: 100%;
+	font-size: 3.5rem;
+	margin-top: 2rem;
+	margin-bottom: 0;
 }
 #description h2 {
-	top: 40%;
+	font-size: 2.5rem;
+}
+#description h1 .arabic-font {
+	font-family:serif;
+	line-height: 3.5rem;
 }
 
 #mesh {
@@ -364,8 +374,13 @@ footer h5 {
 	padding: 1rem;
 	margin: auto;
 }
+#features .feature img.icon {
+	width: 8rem;
+}
 #features .inline-svg {
 	width: 5rem;
+	padding-top: 1rem;
+	height: 7.4rem;
 }
 #features .inline-svg.copy {
 	width: 4rem;
@@ -386,6 +401,10 @@ footer h5 {
 #download .distro {
 	margin-bottom: 2rem;
 	margin-top: 2rem;
+}
+#download .distro img.icon {
+	width: 8rem;
+	margin-bottom: 1rem;
 }
 #download .distro a .inline-svg {
 	width: 7rem;
@@ -440,6 +459,9 @@ footer h5 {
 #participation h3 .inline-svg.comments-solid {
 	width: 4.8rem;
 }
+#participation ul li {
+	text-align: center;
+}
 #participation ul .inline-svg {
 	display: inline-block;
 	width: 1.15rem;
@@ -453,6 +475,7 @@ h1.top {
 	margin: 0;
 	padding: 2rem;
 	text-align: center;
+	display: none;
 }
 
 .page article {
@@ -532,55 +555,50 @@ h1.top {
 
 /* news */
 /* news index teasers */
+#news {
+	max-width: var(--s-pagewidth);
+	margin: 0 auto 0 auto;
+}
 #news .headline {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin: 0;
 	padding: 0;
 }
-.headline .line {
-	flex: 1;
-	margin: 0;
-	padding: 0;
-}
-.headline .line hr {
-	border: 0;
-	border-bottom: 1px solid var(--c-bright-bg);
-}
-.headline h4 {
+#news .headline h2 {
 	margin: 0;
 	padding: 1rem;
 	font-weight: normal;
-	font-size: 1rem;
+	font-size: 1.5rem;
+	text-align: start;
 }
-.headline h4 a:hover {
+.headline h2 a:hover {
 	text-decoration: none;
 }
 .teasers {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 	margin: 0;
 	padding: 0;
+	text-align: start;
 }
 .teasers a.item {
-	max-width: 15rem;
-	min-width: 13rem;
+	max-width: 20rem;
+	min-width: 15rem;
 	margin: 0;
 	padding: 1rem;
+	border: 1px dashed var(--c-white-border);
 }
 .teasers a.item:hover {
-	background-color: var(--c-blue-bg-highlite);
+	background-color: var(--c-white-bg-highlite);
 	text-decoration: none;
 }
 .teasers .title {
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	margin-bottom: 0.4rem;
 }
 .teasers .description {
-	font-size: 1.1rem;
-	color: var(--c-white-bg-highlite);
+	font-size: 1.3rem;
+	color: var(--c-white-text);
 }
 
 

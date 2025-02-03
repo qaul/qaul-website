@@ -23,6 +23,6 @@ DelayTolerantDetails: "Sende Mitteilungen zu nutzern, die zur Zeit nicht verbund
 Multilingual: "Mehrsprachige App"
 MultilingualDetails: "Die App wurde bereits in viele Sprachen übersetzt und kann einfach in neue Sprachen übersetzt werden."
 
-UserDocumentation: "lies mehr in der qaul Benutzer-Dokumentation ..."
+UserDocumentation: "lies mehr in der qaul Benutzer-Dokumentation >>"
 ---
 

@@ -11,7 +11,7 @@
     <div class="box m8 s12 m-block hide" id="nav-top">
         <ul>
         <li class="box">
-            <a href="{{ relLangURL "/" }}about">{{ i18n "About" }}</a>
+            <a href="{{ relLangURL "/" }}about" class="{{ if eq .CurrentSection.Slug "about" }}active{{end}}">{{ i18n "About" }}</a>
         </li>
         <li class="box">
             <a href="{{ relLangURL "/" }}#download">{{ i18n "Download" }}</a>
@@ -20,15 +20,17 @@
             <a href="{{ relLangURL "/" }}#features">{{ i18n "Features" }}</a>
         </li>
         <li class="box">
-            <a href="{{ "tutorials" | relLangURL }}">{{ i18n "Tutorials" }}</a>
+            {{ $PARENT := .Page.Parent }}
+            <a href="{{ "tutorials" | relLangURL }}" class="{{ if eq .CurrentSection.Slug "tutorials" }}active{{end}}">{{ i18n "Tutorials" }}</a>
         </li>
         <li class="box languages">
             <a href="#" onclick="toggle_visibility('nav-lang');">
                 {{ partial "fontawesome.html" "language" }} {{partial "fontawesome.html" "angle-down" }}
             </a>
             <ul class="block hide" id="nav-lang">
+                    {{ $LANG := .Page.Language }}
                     {{ range $.Site.Home.AllTranslations }}
-                    <li class="box"><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                    <li class="box"><a href="{{ .Permalink }}" class="{{ if eq $LANG .Language }}active{{end}}">{{ .Language.LanguageName }}</a></li>
                     {{ end }}
             </ul>
         </li>
@@ -39,7 +41,7 @@
         </li>
         <li>
             <a href="https://github.com/qaul/qaul.net" target="_blank" class="icons" title="{{ i18n "QaulNetRepository" }}" rel="noopener">
-                {{ partial "fontawesome.html" "git-square" }}
+                {{ partial "fontawesome.html" "github" }}
             </a>
         </li>
         </ul>

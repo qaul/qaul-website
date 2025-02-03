@@ -1,9 +1,11 @@
 ---
-title: "Introduction"
+title: "qaul App Quickstart Guide"
 preview: onboarding-splash.jpg
 tags:
 weight: 200
 ---
+
+# qaul App Quickstart Guide
 
 ![](start-alt-ausschnitt.png)
 

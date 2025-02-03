@@ -3,16 +3,19 @@
 {{ with .Site.GetPage "page" "home/main" }}
 <main id="main" class="home">
 <section id="description" class="blue">
-    <h1>qaul – قول</h1>
+    <div class="grafics">
+        <img src="/home/qaul-splash.jpg" alt="qaul Network" />
+    </div>
+    <div class="description">
+    <h1>qaul <span class="arabic-font">قول</span></h1>
     <h2>{{ .Params.Title }}</h2>
+    </div>
 </section>
 {{ end }}
 {{ with .Site.GetPage "news" }}
 <section id="news" class="blue">
     <div class="headline">
-        <div class="line"><hr/></div>
-        <h4><a href="{{ relLangURL "/news" }}">{{ i18n "News" }}</a></h4>
-        <div class="line"><hr/></div>
+        <h2><a href="{{ relLangURL "/news" }}">{{ i18n "News" }}</a></h2>
     </div>
     <div class="teasers">
     {{ range first 3 ( where .Paginator.Pages ".Params.startpage" "eq" true) }}
@@ -41,12 +44,12 @@
 <div class="page">
     <h1>{{ .Title }}</h1>
     <div class="feature s6 m4 box">
-        {{ partial "fontawesome.html" "public" }}
+        <img src="/home/public-sign.png" alt="Public Broadcast Messages" class="icon" />
         <h3>{{ .Params.PublicBroadcast }}</h3>
         <p>{{ .Params.PublicBroadcastDetails }}</p>
     </div>
     <div class="feature s6 m4 box">
-        {{ partial "fontawesome.html" "chat" }}
+        <img src="/home/chat-sign.png" alt="Encrypted Chat" class="icon" />
         <h3>{{ .Params.Chat }}</h3>
         <p>{{ .Params.ChatDetails }}</p>
     </div>
@@ -56,12 +59,12 @@
         <p>{{ .Params.FilesPhotosDetails }}</p>
     </div>
     <div class="feature s6 m4 box">
-        {{ partial "fontawesome.html" "people" }}
+        <img src="/home/user-sign2.png" alt="User Discovery" class="icon" />
         <h3>{{ .Params.Discovery }}</h3>
         <p>{{ .Params.DiscoveryDetails }}</p>
     </div>
     <div class="feature s6 m4 box">
-        {{ partial "fontawesome.html" "network" }}
+        <img src="/home/network-sign.png" alt="Network Overview" class="icon" />
         <h3>{{ .Params.NetworkOverview }}</h3>
         <p>{{ .Params.NetworkOverviewDetails }}</p>
     </div>
@@ -156,7 +159,7 @@
         <h3>{{ partial "fontawesome.html" "laptop-code" }}</h3>
         <ul class="left-aligned">
             <li><a href="https://github.com/qaul/qaul.net" target="_blank">
-                {{ partial "fontawesome.html" "git-square" }} 
+                {{ partial "fontawesome.html" "github" }} 
                 {{i18n "QaulNetRepository"}}</a></li>
             <li><a href="https://github.com/qaul/qaul.net/issues" target="_blank">
                 {{ partial "fontawesome.html" "bug" }}

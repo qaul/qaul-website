@@ -23,5 +23,5 @@ DelayTolerantDetails: "Send messages to users who are not currently connected."
 Multilingual: "Multilingual App"
 MultilingualDetails: "The app has been translated to many languages and can be easily translated to new ones."
 
-UserDocumentation: "read more in the qaul User Documentation ..."
+UserDocumentation: "read more in the qaul User Documentation >>"
 ---

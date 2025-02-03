@@ -56,7 +56,7 @@ Die Online-Plattformen sind nicht politisch-revolutionär und haben auch einen z
 
 {{< figure src="mobile-network.svg" caption="Mobilfunk verbindet die Geräte mittels Antennen oder Satelliten " >}}
 
-{{< figure src="network-structure.svg" caption="Computerverbindungen, die ein lokales Netzwerk übersteigen, laufen via Router, Server, Provider, Backbones, ..." >}}
+{{< figure src="network-structure.svg" caption="Computerverbindungen, die ein lokales Netzwerk übersteigen, laufen via Router, Server, Provider, Backbones, etc." >}}
 
 ## Blackout
 
