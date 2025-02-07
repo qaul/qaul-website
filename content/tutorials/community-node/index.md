@@ -12,6 +12,8 @@ weight: 300
 
 # How To run a qaul Community Node
 
+![Raspberry Pi](community-node.jpg)
+
 You can run qaul in the background as a community node. For example, on a server in the internet, or locally on a Raspberry Pi.
 
 It is as simple and easy to set up as running the qaul app.
