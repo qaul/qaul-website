@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://qaul.net/"
 title = "qaul – قول"
 theme = "hugo-theme-qaul"
 DefaultContentLanguage = "en"
@@ -6,6 +6,7 @@ DefaultContentLanguage = "en"
 
 [params]
   description = "Internet independent wireless mesh communication app"
+  images = ["img/qaul-splash.jpg"]
 
 
 [languages]
