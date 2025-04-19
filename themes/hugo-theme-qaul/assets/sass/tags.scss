@@ -1,0 +1,14 @@
+/* tags */
+.taxonomy {
+	padding: 1rem;
+}
+.taxonomy li {
+	display: inline-block;
+	padding-right: 0.3rem;
+}
+.taxonomy a.is-active {
+  background-color: $c-blue-bg;
+  color: $c-blue-txt !important;
+  padding: 6px;
+  border-radius: 3px;
+}

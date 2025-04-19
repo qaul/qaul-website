@@ -2,7 +2,6 @@
 title: 'Test qaul App'
 description: 'qaul app 2.0.0 on open testing'
 date: 2022-10-28
-startpage: true
 ---
 
 # Test qaul App

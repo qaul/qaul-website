@@ -7,7 +7,10 @@
     <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon" />
 
     <link rel="stylesheet" href="{{ "css/main.css" | relURL }}"  type="text/css">
-    <link rel="stylesheet" href="{{ "css/qaul-2.css" | relURL }}"  type="text/css">
+
+    {{ $style := resources.Get "sass/screen.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" type="text/css">
+
     {{ range .Site.Params.custom_css }}
       <link rel="stylesheet" href="{{ relURL ($.Site.BaseURL) }}{{ . }}"  type="text/css">
     {{ end }}

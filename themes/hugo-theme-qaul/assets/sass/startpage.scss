@@ -1,0 +1,164 @@
+
+/* index page */
+.home section {
+	text-align: center;
+	padding: 2rem 1rem;
+}
+
+#description {
+	max-width: $s-pagewidth;
+	margin: 0 auto 0 auto;
+}
+#description div {
+	margin: 0;
+	padding: 0;
+}
+#description img {
+	max-width: 100%;
+}
+#description h2, #description h1 {
+	color: $c-white-txt;
+	font-weight: bold;
+}
+#description h1 {
+	font-size: 3.5rem;
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+#description h2 {
+	font-size: 2.5rem;
+}
+#description h1 .arabic-font {
+	font-family:serif;
+	line-height: 3.5rem;
+}
+
+#mesh {
+	text-align: initial;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+}
+#mesh .page {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+#mesh .page div {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+#features .page {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+#features h1 {
+	width: 100%;
+}
+#features h3 {
+	margin-bottom: 0;
+}
+#features .feature {
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+#features .feature p {
+	max-width: 20rem;
+	padding: 1rem;
+	margin: auto;
+}
+#features .feature img.icon {
+	width: 8rem;
+}
+#features .inline-svg {
+	width: 5rem;
+	padding-top: 1rem;
+	height: 7.4rem;
+}
+#features .inline-svg.copy {
+	width: 4rem;
+}
+#features .inline-svg.phone-volume {
+	width: 3.5rem;
+}
+
+#screenshots img {
+	width: 100%;
+}
+
+#download .page {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+#download .distro {
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+#download .distro img.icon {
+	width: 8rem;
+	margin-bottom: 1rem;
+}
+#download .distro a .inline-svg {
+	width: 7rem;
+	height: 7rem;
+	border-radius: 3.5rem;
+	background-color: $c-blue-txt;
+	color: $c-blue-bg;
+	display: block;
+	margin: auto;
+	margin-bottom: 1rem;
+}
+#download .distro a .inline-svg.ubuntu {
+	background-color: transparent;
+	color: $c-blue-txt;
+}
+#download .distro a .inline-svg.ubuntu svg {
+	width: 7rem;
+	margin-top: 0;
+}
+#download .distro a .inline-svg.windows svg {
+	width: 3.5rem;
+	margin-top: 1.5rem;
+}
+#download .distro a .inline-svg.apple svg {
+	width: 3.5rem;
+}
+#download .distro svg {
+	width: 4.5rem;
+	margin-top: 1rem;
+}
+
+#participation .page {
+	margin: 0 auto 0 auto;
+}
+#participation nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+#participation div {
+	margin: 2rem 0;
+}
+#participation div h3 {
+	margin-bottom: 1.5rem;
+}
+#participation h3 .inline-svg {
+	width: 4rem;
+}
+#participation h3 .inline-svg.laptop-code {
+	width: 5rem;
+}
+#participation h3 .inline-svg.comments-solid {
+	width: 4.8rem;
+}
+#participation ul li {
+	text-align: center;
+}
+#participation ul .inline-svg {
+	display: inline-block;
+	width: 1.15rem;
+}

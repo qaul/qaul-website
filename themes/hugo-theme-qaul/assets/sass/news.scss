@@ -1,0 +1,80 @@
+/* news */
+/* news index teasers */
+#news {
+	max-width: $s-pagewidth;
+	margin: 0 auto 0 auto;
+}
+#news .headline {
+	margin: 0;
+	padding: 0;
+}
+#news .headline h2 {
+	margin: 0;
+	padding: 1rem;
+	font-weight: normal;
+	font-size: 1.5rem;
+	text-align: start;
+}
+.headline h2 a:hover {
+	text-decoration: none;
+}
+.teasers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 0;
+	padding: 0;
+	text-align: start;
+	gap: 1rem;
+}
+.teasers a.item {
+	margin: 0;
+	padding: 1rem;
+	border: 1px dashed $c-white-border;
+}
+@media only screen and (max-width: 42rem) {
+	.teasers a.item {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 42rem) {
+	.teasers a.item {
+		max-width: 20rem;
+		min-width: 15rem;
+	}
+}
+.teasers a.item:hover {
+	background-color: $c-white-bg-highlite;
+	text-decoration: none;
+}
+.teasers .title {
+	font-size: 1.3rem;
+	margin-bottom: 0.4rem;
+}
+.teasers .description {
+	font-size: 1.3rem;
+	color: $c-white-txt;
+}
+
+
+
+/* news pages */
+article.news h1 {
+	padding: 0 1rem;
+}
+a.newslist {
+	display:block;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	color: inherit;
+}
+a.newslist:hover {
+	background-color: $c-white-bg-highlite;
+}
+.newslist h3, .newslist p {
+	margin: 0;
+}
+.newslist .date {
+	font-size: smaller;
+	color: $c-footer-txt;
+}

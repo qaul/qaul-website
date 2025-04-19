@@ -1,0 +1,46 @@
+/* tutorials */
+.tutorial .taxonomy {
+	padding-bottom: 0;
+}
+.tutorial article :first-child {
+	margin-top: 0;
+}
+.tutorial article {
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+}
+
+.tutorials {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 1rem;
+	padding-bottom: 3rem;
+}
+.tutorials .preview {
+	margin: 0;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 0;
+}
+.preview .visual {
+	width: 100%;
+	padding-top: 56.25%;
+	background-image: linear-gradient(to bottom right, $c-bright-bg, $c-blue-bg);
+	background-size: cover;
+	background-position: center center;
+}
+.preview .caption {
+	padding: 1rem 0;
+}
+
+.participation__box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tutorial article pre {
+	padding: 1rem;
+	border-radius: 1rem;
+}

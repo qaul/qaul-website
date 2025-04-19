@@ -1,0 +1,113 @@
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		 url('../fonts/roboto-v30-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		 url('../fonts/roboto-v30-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+:root {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+h1{font-size:2.5rem;}
+h2{font-size:2rem;}
+h3{font-size:1.75rem;}
+h4{font-size:1.5rem;}
+h5{font-size:1.3rem;}
+h6{font-size:1.3rem;}
+body,p,div{font-size:1.3rem;}
+
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+code {
+	background-color: $c-bright-bg;
+	color: $c-bright-txt;
+}
+
+blockquote {
+	margin: 0;
+	background-color: $c-bright-bg;
+	color: $c-bright-txt;
+	padding: 1rem;
+}
+blockquote a {
+	color: $c-bright-a
+}
+
+/* general backgrounds */
+.white {
+	background-color: $c-white-bg;
+	color: $c-white-txt;
+}
+.white a {
+	color: $c-white-a;
+}
+.dark {
+	background-color: $c-dark-bg;
+	color: $c-dark-txt;
+}
+.dark a {
+	color: $c-dark-a;
+}
+.blue {
+	background-color: $c-blue-bg;
+	color: $c-blue-txt;
+}
+.blue a {
+	color: $c-blue-a;
+}
+.bright {
+	background-color: $c-bright-bg;
+	color: $c-bright-txt;
+}
+.bright a {
+	color: $c-bright-a
+}
+
+
+/* main area */
+.page {
+	max-width: $s-pagewidth;
+	margin: 0 auto 0 auto;
+}
+
+
+/* single page */
+h1.top {
+	background-color: $c-blue-bg;
+	color: $c-blue-txt;
+	margin: 0;
+	padding: 2rem;
+	text-align: center;
+}
+
+.page article {
+	padding: 1rem 1rem 3rem 1rem;
+}
+.page img, .page video {
+	max-width: 100%;
+}
+
+.page figure {
+	margin-left: 0;
+	margin-right: 0;
+}
+.page figcaption {
+	font-style: italic;
+}

@@ -1,0 +1,28 @@
+/* footer */
+footer {
+	background-color: $c-footer-bg;
+	color: $c-footer-txt;
+	box-shadow: 0 0 1rem 0 $c-footer-bg;
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+}
+footer nav {
+	padding: 1rem;
+	display: flex;
+	align-items: flex-start;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+footer a {
+	color: $c-footer-a;
+}
+footer a.cc-license span.inline-svg {
+    height: 2rem;
+    width: 2rem;
+}
+footer h5 {
+	font-size: 1.15rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
