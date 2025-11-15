@@ -2,7 +2,6 @@
 title: 'Wireless Battlemesh 2025'
 description: '10-16 June'
 date: 2025-04-06
-startpage: true
 ---
 
 # Meet qaul @ Wireless Battlemesh
