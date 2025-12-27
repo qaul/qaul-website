@@ -2,7 +2,7 @@
 title: 'Splintercon Paris'
 description: 'meet qaul @ splintercon'
 date: 2025-11-14
-startpage: true
+startpage: false
 ---
 
 # Splintercon Paris
