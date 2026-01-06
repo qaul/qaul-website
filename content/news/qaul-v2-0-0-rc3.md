@@ -2,7 +2,7 @@
 title: 'qaul 2.0.0 rc3 released'
 description: 'download & test'
 date: 2025-02-19
-startpage: true
+startpage: false
 ---
 
 # qaul 2.0.0-rc.3 released

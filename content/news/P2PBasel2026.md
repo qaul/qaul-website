@@ -2,7 +2,7 @@
 title: 'P2P Basel'
 description: 'meet qaul @ P2P Basel'
 date: 2025-12-26
-startpage: false
+startpage: true
 ---
 
 # P2P Basel
